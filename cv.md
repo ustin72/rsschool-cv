@@ -1,6 +1,7 @@
 [RS-School](https://rs.school/ "Go to rs.school")
 
 ---
+![Avatar](avatar.ico)
 ##### ULADZIMIR USTSIN #####
 ---
 ##### CONTACT INFO
