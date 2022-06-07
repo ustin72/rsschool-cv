@@ -1,6 +1,3 @@
-[RS-School](https://rs.school/ "Go to rs.school")
-
----
 ![Avatar](avatar.ico)
 ##### ULADZIMIR USTSIN #####
 ---
@@ -9,9 +6,11 @@
 - Email: ustin72rs@gmail.com
 ---
 ##### PROFILE #####
-
+- I am the head of the automation and metrology department. The task of the department include ensuring the smooth operation of control systems. Specialists of the department carry out maitanence and repair of automation equipment. The deparment also carriers out installation and adjustment of new control systems. The development of software for process control is also part of the tasks of the department.
 ---
 ##### PROFESSIONAL SKILLS #####
+- Markdown (Elementary)
+  - [CV#1. Markdown & Git](https://ustin72.github.io/rsschool-cv/cv "cv.md")
 - HTML (Elementary)
 - CSS (Elementary)
 ---
