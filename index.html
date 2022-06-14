@@ -5,41 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CV-html</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/favicom.ico">
+    <title>cv</title>
 </head>
 <body>
-    <div class="resume">
-        <div class="side-left">
-            <div class="image">
-                <img src="avatar.png" alt="avatar">
-            </div>
-            <div class="bottom">
-                <div class="name">Uladzimr Ustsin</div>
-                <div class="profile">
-                    <div class="title">Profile</div>
-                    <div class="info">I am the head of the automation and metrology department. 
-                        The task of the department include ensuring the smooth operation of control systems. 
-                        Specialists of the department carry out maitanence and repair of automation equipment. 
-                        The deparment also carriers out installation and adjustment of new control systems. 
-                        The development of software for process control is also part of the tasks of the department.
-                    </div>
-                </div>
-                <div class="contacts">
-                    <div class="title">Contact info
-                        <div class="subtitle">GitHub: </div>
-                        <div class="subtitle">Email: </div>
-                    </div>
-                </div>
-            </div>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contact info</a></li>
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Professional skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#educaition" class="nav-link">Educaition</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English skills</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="side-right">  
-            <div class="skills"> 
-                <div class="title">Professional skills 
-                    <div class="skills_left">HTML</div>
-                    <div class="skills_left">CSS</div> 
-                </div>
-            </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section">
+                <h2>RS-School Student</h2>
+                <p>Uladzimir Ustsin</p>
+            </section>
+            <div class="section" ><img src="assets/img/avatar.png" width="180" alt="avatar"></div>
+            <section class="section" id="contacts">
+                <h2>Contact info</h2>
+                <ul>
+                    <li><strong>GitHub:</strong> ustin72</li>
+                    <li><strong>Discord:</strong><a href="https://discord.com/channels/516715744646660106/919616380574269470" class="section-link"> <em>ustin72rs(@ustin72) (link)</em></a></li>
+                    <li><strong>Email:</strong><a href="mailto:ustin72rs@gmail.com" class="section-link"> <em>ustin72rs@gmail.com (link)</em></a></li>
+                </ul>
+            </section>
+            <section class="section" id="profile">
+                <h1>Profile</h1>
+                <p>I am an employee of the <strong>automation</strong> and <strong>metrology</strong> department. 
+                    The task of the department is to ensure the smooth operation of <strong>control systems</strong>. 
+                    The department carries out <em>installation, adjustment</em>> and <em>maintenance</em> of control systems</p> 
+            </section>
+            <section class="section" id="skills">
+                <h2>Professional skills</h2>
+                <ul>
+                    <li><strong>Markdown</strong> (Elementary)
+                        <ul>
+                            <li><a href="https://ustin72.github.io/rsschool-cv/cv" class="section-link"><em>CV#1. Markdown & Git (link)</em></a></li>
+                        </ul>
+                    </li>
+                    <li><strong>HTML & CSS</strong> (Elementary)
+                        <ul>
+                            <li><a href="https://ustin72.github.io/rsschool-cv/" class="section-link"><em>CV#2. HTML, CSS & Git Basic (link)</em></a></li>
+                            <li>CV#3. CV. Cross Chec</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2>Code example</h2>
+                <pre>
+                    <code>function multiply (a, b) {
+                            return a * b
+                          }
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li>Automaition</li>
+                    <li>Metrology</li>
+                </ul>
+            </section>
+            <section class="section" id="educaition">
+                <h2>Educaition</h2><strong>Polotsk State University</strong>, Radio-Engineering faculty
+            </section>
+            <section class="section footer-section" id="english">
+                <h2>English skills</h2>Elementary
+            </section>
         </div>
-    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-item"><a href="https://github.com/ustin72" class="footer-link"><img src="assets/img/github.png" width="160" alt="github"></a></li>
+                <li class="footer-item"><strong>2022</strong></li>
+                <li class="footer-item"><a href="https://rs.school/js/"><img src="assets/img/rs_school_js.ico" width="160" alt="rs-school"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
